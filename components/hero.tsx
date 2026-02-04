@@ -16,10 +16,11 @@ export function Hero() {
         <Pill className="mb-6">BETA RELEASE</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           Unlock your <br />
-          <i className="font-light">future</i> growth
+          <i className="font-light">Infrastructure </i> Freedom
         </h1>
-        <p className="font-mono text-sm sm:text-base text-foreground/60 text-balance mt-8 max-w-[440px] mx-auto">
-          Through perpetual investment strategies that outperform the market
+        <p className="font-mono text-sm sm:text-base text-foreground text-shadow-2xl text-balance mt-8 max-w-[440px] mx-auto">
+          Through vendor-agnostic caching infrastructure built for scalable
+          backends
         </p>
 
         <Link className="contents max-sm:hidden" href="/#contact">
