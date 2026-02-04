@@ -10,21 +10,24 @@ import {
   MobileNavToggle,
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
+import Link from "next/link";
+
 import { useState } from "react";
+import { Button } from "./ui/button";
 
 export function AppNav() {
   const navItems = [
+    // {
+    //   name: "Features",
+    //   link: "#features",
+    // },
     {
-      name: "Features",
-      link: "#features",
+      name: "Solution",
+      link: "#solution",
     },
     {
-      name: "Pricing",
-      link: "#pricing",
-    },
-    {
-      name: "Contact",
-      link: "#contact",
+      name: "Architecture",
+      link: "#architecture",
     },
   ];
 
@@ -38,8 +41,9 @@ export function AppNav() {
           <NavbarLogo />
           <NavItems items={navItems} />
           <div className="flex items-center gap-4">
-            <NavbarButton variant="secondary">Login</NavbarButton>
-            <NavbarButton variant="primary">Book a call</NavbarButton>
+            <Link href="/docs" className="z-10">
+              Docs
+            </Link>
           </div>
         </NavBody>
 
@@ -68,20 +72,13 @@ export function AppNav() {
               </a>
             ))}
             <div className="flex w-full flex-col gap-4">
-              <NavbarButton
+              <Link
                 onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
+                href="/docs"
                 className="w-full"
               >
-                Login
-              </NavbarButton>
-              <NavbarButton
-                onClick={() => setIsMobileMenuOpen(false)}
-                variant="primary"
-                className="w-full"
-              >
-                Book a call
-              </NavbarButton>
+                Docs
+              </Link>
             </div>
           </MobileNavMenu>
         </MobileNav>

@@ -10,12 +10,14 @@ export function FeaturesSection() {
     {
       icon: <LayoutGrid className="w-6 h-6" />,
       title: "Clean Architecture",
-      description: "Built on Strategy Pattern principles for long-term maintainability.",
+      description:
+        "Built on Strategy Pattern principles for long-term maintainability.",
     },
     {
       icon: <TrendingUp className="w-6 h-6" />,
       title: "Safe Performance Testing",
-      description: "Benchmark Redis vs Memcached in production-like environments.",
+      description:
+        "Benchmark Redis vs Memcached in production-like environments.",
     },
     {
       icon: <Lock className="w-6 h-6" />,
@@ -25,7 +27,10 @@ export function FeaturesSection() {
   ];
 
   return (
-    <section id="features" className="py-24 md:py-32 px-4 bg-background border-b border-border/40">
+    <section
+      id="features"
+      className="py-24 md:py-32 px-4 bg-background border-b border-border/40 scroll-mt-24"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-sentient mb-4 text-balance">
           Designed for Scaling <br className="hidden md:inline" />
@@ -72,7 +77,10 @@ export function FeaturesSection() {
         </div>
 
         <p className="mt-12 text-lg text-foreground/70 italic">
-          This is not a caching tool. It's <span className="text-primary font-semibold">infrastructure insurance.</span>
+          This is not a caching tool. It's{" "}
+          <span className="text-primary font-semibold">
+            infrastructure insurance.
+          </span>
         </p>
       </div>
     </section>

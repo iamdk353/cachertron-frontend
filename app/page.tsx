@@ -1,5 +1,6 @@
 "use client";
 
+import { AppNav } from "@/components/AppNav";
 import { Hero } from "@/components/hero";
 import { ArchitectureSection } from "@/components/sections/architecture";
 import { ComparisonSection } from "@/components/sections/comparison";
@@ -12,6 +13,7 @@ import { Leva } from "leva";
 export default function Home() {
   return (
     <>
+      <AppNav />
       <Hero />
       <Leva hidden />
       <ProblemSection />

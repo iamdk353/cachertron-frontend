@@ -39,7 +39,7 @@ export function FooterSection() {
             <ul className="space-y-2 text-sm text-foreground/60">
               <li>
                 <Link
-                  href="#docs"
+                  href="/docs"
                   className="hover:text-foreground/100 transition-colors"
                 >
                   Documentation
