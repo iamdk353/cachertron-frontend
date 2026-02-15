@@ -7,7 +7,7 @@ export function ProblemSection() {
       id="problem"
       className="py-24 md:py-32 px-4 bg-background border-b border-border/40 flex "
     >
-      <div className="max-w-7xl min-w-6xl mx-auto flex items-center justify-between ">
+      <div className="max-w-7xl  mx-auto flex items-center justify-between ">
         <div>
           <h2 className="text-4xl md:text-5xl font-sentient mb-8 text-balance">
             Your Cache Layer Is Tightly <br className="hidden md:inline" />
@@ -36,8 +36,6 @@ export function ProblemSection() {
             baseAngle={0}
             style={{ margin: "2rem auto" }}
           />
-
-          <p className="capitalize"> just like magnets do</p>
         </div>
       </div>
     </section>
