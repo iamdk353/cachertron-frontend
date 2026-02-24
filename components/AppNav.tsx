@@ -29,6 +29,10 @@ export function AppNav() {
       name: "Architecture",
       link: "#architecture",
     },
+    {
+      name: "Pricing",
+      link: "#pricing",
+    },
   ];
 
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

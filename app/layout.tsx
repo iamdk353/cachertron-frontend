@@ -9,9 +9,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skal Ventures",
-  description: "Investment strategies that outperform the market",
-  generator: "v0.app",
+  title: "Cachetron",
 };
 
 export default function RootLayout({

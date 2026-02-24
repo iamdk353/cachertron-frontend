@@ -13,7 +13,6 @@ export function Hero() {
       <GL hovering={hovering} />
 
       <div className="text-center relative mt-20">
-        <Pill className="mb-6">BETA RELEASE</Pill>
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-sentient">
           Unlock your <br />
           <i className="font-light">Infrastructure </i> Freedom

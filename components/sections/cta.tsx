@@ -20,9 +20,12 @@ export function CTASection() {
           <Link className="contents" href="#integrate">
             <Button className="">[Contact Us]</Button>
           </Link>
-          <Link className="contents" href="#overview">
+          <a
+            className="contents"
+            href="mailto:?subject=Request%20Technical%20Overview%20-%20Cachetron&body=Hi%20Cachetron%20team%2C%0A%0AI%27d%20like%20to%20request%20the%20technical%20overview.%0A%0AThanks."
+          >
             <Pill className="h-17">[Request Technical Overview]</Pill>
-          </Link>
+          </a>
         </div>
       </div>
     </section>
