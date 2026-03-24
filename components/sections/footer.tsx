@@ -39,6 +39,14 @@ export function FooterSection() {
             <ul className="space-y-2 text-sm text-foreground/60">
               <li>
                 <Link
+                  href="https://www.npmjs.com/package/cachetron"
+                  className="hover:text-foreground/100 transition-colors"
+                >
+                  npm
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/docs"
                   className="hover:text-foreground/100 transition-colors"
                 >
@@ -47,7 +55,7 @@ export function FooterSection() {
               </li>
               <li>
                 <Link
-                  href="#"
+                  href="https://github.com/iamdk353/cachetron"
                   className="hover:text-foreground/100 transition-colors"
                 >
                   GitHub
